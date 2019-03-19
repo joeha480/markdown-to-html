@@ -14,10 +14,18 @@ import com.vladsch.flexmark.ext.tables.TablesExtension;
 class MarkdownOptions {
 	static final String SOURCE_ENCODING = "source-encoding";
 	static final String SOURCE_LANGUAGE = "source-language";
+	//private static final String ABBREVIATIONS = "";
+	//private static final String ANCHOR_LINKS_IN_HEADERS = "";
+	//private static final String ASIDE = "";
 	static final String AUTO_LINKS = "auto-link";
+	//private static final String DEFINITION_LISTS = "";
+	//private static final String FOOTNOTES = "";
 	static final String STRIKETHROUGH = "github-strikethrough";
+	//private static final String TABLE_OF_CONTENTS = "";
 	static final String TABLES = "github-tables";
 	static final String TASK_LISTS = "github-tasks";
+	//private static final String WIKI_LINKS = "";
+	//private static final String YAML_FRONTMATTER = "";
 	static final String DEFAULT_ENCODING = "utf-8";
 	static final String DEFAULT_LANGUAGE = Locale.getDefault().toLanguageTag();
 	private static final String TRUE = "true";
